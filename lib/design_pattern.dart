@@ -1,5 +1,6 @@
 import 'package:design_pattern/composite_pattern.dart' as composite;
 import 'package:design_pattern/factory_pattern.dart' as factory_pattern;
+import 'package:design_pattern/prototype_pattern.dart' as prototype;
 import 'package:design_pattern/singleton_design_pattern.dart' as singleton;
 
 singletonProofOfConcept() {
@@ -28,4 +29,12 @@ factoryPatternProofOfConcept() {
   aStudent.speak();
   aEmployee.speak();
   aTeacher.speak();
+}
+
+prototypeProofOfConcept() {
+  prototype.Prototype aObj = prototype.Prototype("tamim", "1930");
+  prototype.Prototype anotherObj = aObj.clone();
+  print("aObj name : ${aObj.name}, id : ${aObj.id}");
+  print(
+      "anotherObj which is a clone of 'aObj' : \n name : ${anotherObj.name} \n id : ${anotherObj.id}");
 }

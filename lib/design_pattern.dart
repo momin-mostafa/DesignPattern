@@ -32,9 +32,11 @@ factoryPatternProofOfConcept() {
 }
 
 prototypeProofOfConcept() {
-  prototype.Prototype aObj = prototype.Prototype("tamim", "1930");
-  prototype.Prototype anotherObj = aObj.clone();
-  print("aObj name : ${aObj.name}, id : ${aObj.id}");
-  print(
-      "anotherObj which is a clone of 'aObj' : \n name : ${anotherObj.name} \n id : ${anotherObj.id}");
+  prototype.Prototype object = prototype.Prototype("tamim", "1930");
+  prototype.Prototype cloneOfObject = object.clone();
+
+  print("properties of object : ");
+  print("name : ${object.name}, id : ${object.id}");
+  print("cloneOfObject which is a clone of 'object' : ");
+  print("name : ${cloneOfObject.name}, id : ${cloneOfObject.id}");
 }

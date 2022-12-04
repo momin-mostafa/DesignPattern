@@ -17,3 +17,7 @@ A pattern in which we can create a group of object and treat similarly.
 
 - [Prototype](./lib/prototype_pattern.dart) :
 This pattern will let any immutable object to clone itself. Or by modifing `copy` method it can also change value of it's clone object. 
+
+### TODO
+ [ ] Add `test` to justyfy proof of concept 
+ [ ] Add other design patterns.

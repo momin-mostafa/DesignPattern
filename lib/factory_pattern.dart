@@ -20,33 +20,37 @@ abstract class Person {
         throw "Undefined Person Type";
     }
   }
-  void speak();
+  String speak();
 }
 
 class Student implements Person {
   @override
-  void speak() {
+  String speak() {
     print("Hello from student");
+    return "Hello from student";
   }
 }
 
 class Teacher implements Person {
   @override
-  void speak() {
+  String speak() {
     print("Hello from teacher");
+    return "Hello from teacher";
   }
 }
 
 class Employee implements Person {
   @override
-  void speak() {
+  String speak() {
     print("Hello from Employee");
+    return "Hello from Employee";
   }
 }
 
 class Admin implements Person {
   @override
-  void speak() {
+  String speak() {
     print("This is ADMIN");
+    return "This is ADMIN";
   }
 }

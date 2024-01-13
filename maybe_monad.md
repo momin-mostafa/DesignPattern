@@ -22,4 +22,4 @@ In summary, this design pattern adheres to functional programming principles, pr
 
 
 see code : [Maybe Monad](./lib/maybe_monad_pattern.dart)
-see implementation [implementation](./lib/design_pattern.dart)
+see implementation [implementation](./lib/design_pattern.dart#L45)

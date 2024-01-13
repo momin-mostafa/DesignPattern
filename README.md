@@ -19,9 +19,20 @@ For example, we made the `Course` an independent class. We are using the `course
 - [Prototype](./lib/prototype_pattern.dart) :
 This pattern will let any immutable object to clone itself. Or by modifing `copy` method it can also change value of it's clone object. 
 
+- [MaybeMonad](./maybe_monad.md) :
+This design pattern adheres to functional programming principles, promoting safer code by addressing the issues associated with null references while introducing a structured approach to optional value handling
+
+
 ### TODO
-- [ ] Add `test` to justyfy proof of concept 
 - [ ] Add other design patterns.
+    - [X] Singleton
+        - [ ] [Eager initialization](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples#1-eager-initialization)
+        - [ ] [Lazy Initialization](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples#3-lazy-initialization)
+    - [X] Factory
+    - [X] Composite
+    - [X] Prototype
+    - [X] Maybe Monad (Functional)
+    - [ ] 
 
 
 ### Reference : 

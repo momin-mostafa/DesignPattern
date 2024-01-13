@@ -1,5 +1,6 @@
 import 'package:design_pattern/composite_pattern.dart' as composite;
 import 'package:design_pattern/factory_pattern.dart' as factory_pattern;
+import 'package:design_pattern/maybe_monad_pattern.dart' as monad_maybe;
 import 'package:design_pattern/prototype_pattern.dart' as prototype;
 import 'package:design_pattern/singleton_design_pattern.dart' as singleton;
 
@@ -39,4 +40,13 @@ prototypeProofOfConcept() {
   print("name : ${object.name}, id : ${object.id}");
   print("cloneOfObject which is a clone of 'object' : ");
   print("name : ${cloneOfObject.name}, id : ${cloneOfObject.id}");
+}
+
+void maybeMonadProofOfConcept() {
+  num plus3(num x) => x + 3;
+
+  final result = monad_maybe.Just(2).fmap((p0) => plus3(p0));
+  if (result is monad_maybe.Just) {
+    print((result as monad_maybe.Just).value);
+  }
 }

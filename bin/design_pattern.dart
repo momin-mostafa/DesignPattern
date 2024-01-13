@@ -4,5 +4,6 @@ void main(List<String> arguments) {
   // singletonProofOfConcept();
   // compositePatternProofOfConcept();
   // factoryPatternProofOfConcept();
-  prototypeProofOfConcept();
+  // prototypeProofOfConcept();
+  maybeMonadProofOfConcept();
 }

@@ -1,3 +1,5 @@
+see code : [Maybe Monad](./lib/maybe_monad_pattern.dart)
+
 This code implements the Maybe monad design pattern, a common approach in functional programming to handle optional values without resorting to null references. The Maybe monad encapsulates the presence or absence of a value and is represented by the `Just` and `Nothing` classes.
 
 **Key Components:**
